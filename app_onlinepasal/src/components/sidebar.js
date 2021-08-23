@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu, Icon, Switch } from 'antd';
+import { Menu, Switch } from 'antd';
 import {Link} from 'react-router-dom'
 
 const { SubMenu } = Menu;
@@ -42,7 +42,9 @@ export default class Sidebar extends React.Component {
             key="sub1"
             title={
               <span>
+              {/*
                 <Icon type="mail" />
+              */}
                 <span>User</span>
               </span>
             }
@@ -62,7 +64,9 @@ export default class Sidebar extends React.Component {
             key="sub2"
             title={
               <span>
+              {/*
                 <Icon type="appstore" />
+              */}
                 <span>Medical Report</span>
               </span>
             }
