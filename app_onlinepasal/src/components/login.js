@@ -2,7 +2,6 @@ import React from 'react';
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
 import axios from 'axios'
 import {Redirect} from 'react-router-dom'
-import {Dashboard} from './dashboard';
 import Request from '../api'
 
 
